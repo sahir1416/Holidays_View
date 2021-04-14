@@ -1,0 +1,31 @@
+.about{
+    font-family: 'Spartan', sans-serif;
+    margin: 10px;
+    padding: 9px;
+    font-size: 50px;
+    /* background-color: #8f8f8f; */
+    color: #2c2c2c;
+    background: rgb(245, 167, 248);
+    text-decoration: underline;
+    width: 300px;
+    font-weight: 500;
+}
+#more {display: none;}
+.abouttext{
+    margin-bottom: 100px;
+}
+.aboutline{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    background: cornsilk;
+}
+.aboutspan{
+    margin-top: 40px;
+}
+.readmore{
+    cursor: pointer;
+}

@@ -1,0 +1,104 @@
+.head-text{
+    font-family: 'Spartan', sans-serif;
+    margin: 10px;
+    padding: 9px;
+    font-size: 59px;
+    /* background-color: #8f8f8f; */
+    color: #2c2c2c;
+    text-decoration: underline;
+    width: 708px;
+    width: 708px;
+    font-weight: 500;
+}
+.container-text{
+    font-family: 'Play', sans-serif;
+    margin: 13px;
+    padding: 10px;
+    font-size: 27px;
+    font-variant-caps: small-caps;
+    text-align: left;
+}
+
+.cimg {
+    height: 650px;
+    width: 1500px;
+    padding: 30px;
+    /* margin: 30px; */
+    /* margin-left: 102px; */
+    background-repeat: no-repeat;
+    
+}
+
+
+/* .card{
+    width: 343px;
+    height: 236px;
+    display: -webkit-box;
+    padding: 59px;
+    margin: 40px;
+} */
+.h1{
+    /* font-family: 'Train One', cursive; */
+    /* font-family: 'Source Code Pro', monospace; */
+    /* font-family: 'Pacifico', cursive; */
+    font-family: 'Source Code Pro', monospace;
+    font-size: 70px;
+    animation: animate 2.1s linear infinite;
+}
+   
+/* .h1::before{
+    content: '';
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, red 5%, blue 100%);
+} */
+@keyframes animate
+{
+    0%
+    {
+            color: rgb(0, 0, 0);
+            text-shadow: none;
+    }
+    100%
+    {
+      color: rgb(149, 159, 255);
+      text-shadow: 0 0 10px rgb(149, 159, 255),
+                   0 0 20px rgb(149, 159, 255),
+                   0 0 40px rgb(149, 159, 255),
+                   0 0 60px rgb(149, 159, 255),
+                   0 0 80px rgb(149, 159, 255),
+                   0 0 100px rgb(149, 159, 255),
+
+
+    }
+}
+.row{
+    padding: 10px;
+    cursor: pointer;
+}
+.img-fluid{
+    height: 550px;
+
+}
+.card-img1{
+    height: 271px;
+}
+.card-title{
+    /* color: coral; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Cinzel', serif;
+    font-size: 1.9em;
+    /* margin: 0px; */
+    text-align: center;
+    text-decoration: overline;
+    
+}
+.card-img-overlay:hover{
+    /* background-color: darkorange; */
+    opacity: 0.62;
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    /* padding: 10px; */
+}
