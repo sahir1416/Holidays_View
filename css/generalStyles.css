@@ -18,6 +18,14 @@ body{
 .sticky-top:hover{
     background-color: cadetblue;
 }
+
+.change {
+    background: red;
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
 .navbar {
     background-color:  rgb(38, 0, 255) !important;
     /* width: 110%; */
@@ -35,6 +43,10 @@ body{
 .nav-link:hover{
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255) ;
+}
+/* .nav-link1:active{
+    background-color: rgb(255, 0, 0) !important;
+    color: chartreuse; */
 }
 .head-text{
     font-family: 'Spartan', sans-serif;
@@ -140,3 +152,74 @@ body{
     margin: 10px;
     /* padding: 10px; */
 }
+
+.footer {
+    background-color: rgb(74, 149, 172);
+    color: white;
+    position:sticky;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    height: 184px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-facebook:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.fa-facebook:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #e71d59;
+    color: white;
+}
+.footertext{
+    padding: 25px;
+}
+.footerline{
+    background-attachment: fixed;
+    
+}
+.footersub{
+    color: rgb(255, 255, 255);
+    /* font-weight: bolder; */
+    font-size: 20px;
+    
+}
+.footersubline{
+    color: rgb(255, 255, 255);
+    /* font-weight: bolder; */
+    margin-left: 10px;
+    font-size: 20px;
+    
+}
+
