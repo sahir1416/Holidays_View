@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration</title>
+
+    <!-- Zen Dots  -->
+     <!-- Regular 400  -->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
     <script src="re"></script>
     <style>
         * {
@@ -33,14 +38,17 @@
             max-width: 900px;
             width: 100%;
             /* background: rgb(236, 203, 255); */
-            background-color: rgb(180, 180, 180);
+            background-color: rgba(180, 180, 180, 0.2);
             padding: 25px 30px;
             border-radius: 5px;
-            opacity: 0.7;
+            /* opacity: 0.7; */
             font-variant-caps: petite-caps;
-            
-            
+            color: black;
+
+
         }
+
+      
 
         .container .title {
             font-size: 24px;
@@ -128,14 +136,34 @@
 
         form input[type=submit] {
 
-            background-color: rgb(247, 68, 68);
+            /* background-color: rgb(247, 68, 68);
             color: white;
             height: 35px;
             width: 20%;
             font-size: medium;
-            cursor: pointer;
+            cursor: pointer; */
+
+            /* animated  */
+            font-family: 'Zen Dots', cursive;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            color: rgb(0, 0, 0);
+            /* font-variant: all-petite-caps; */
+            font-size: 20px;
+            padding: 2px 0px;
+            letter-spacing: 4px;
+            /* text-transform: uppercase; */
+            text-decoration: none;
+            box-shadow: 0 20px 50px rgb(0 0 0 / 50%);
+            overflow: hidden;
+            
         }
+
+       
+        
     </style>
+
+    
 
 </head>
 
@@ -190,7 +218,9 @@
                 </div>
             </div>
             <div class="buttom">
-                <center><input type="submit" name="" value="Submit" onclick="fun()"></center>
+                <div class="submit">
+                    <center><input type="submit" name="" value="Submit" onclick="fun()"></center>
+                </div>
             </div>
         </form>
 

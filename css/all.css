@@ -27,7 +27,7 @@ body{
 }
 
 .navbar {
-    background-color:  rgb(38, 0, 255) !important;
+    background-color:  rgb(160, 241, 247) !important;
     /* width: 110%; */
     position: sticky;
     font-size: 20px;
@@ -36,13 +36,13 @@ body{
 }
 .nav-link{
     
-    color: whitesmoke !important;
+    color: rgb(8, 8, 8) !important;
     /* margin-left: 54px; */
     margin-right: 31px;
 }
 .nav-link:hover{
     background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255) ;
+    color: rgb(255, 255, 255) !important ;
 }
 /* .nav-link1:active{
     background-color: rgb(255, 0, 0) !important;
@@ -154,7 +154,7 @@ body{
 }
 
 .footer {
-    background-color: rgb(74, 149, 172);
+    background-color:  rgb(160, 241, 247) !important;
     color: white;
     position:sticky;
     text-align: center;
@@ -210,13 +210,13 @@ body{
     
 }
 .footersub{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* font-weight: bolder; */
     font-size: 20px;
     
 }
 .footersubline{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* font-weight: bolder; */
     margin-left: 10px;
     font-size: 20px;
