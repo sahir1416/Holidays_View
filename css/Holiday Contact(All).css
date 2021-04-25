@@ -1,19 +1,146 @@
-.contact1{
-    font-family: 'Spartan', sans-serif;
-    margin: 10px;
-    padding: 9px;
-    font-size: 50px;
-    /* background-color: #8f8f8f; */
-    color: #2c2c2c;
-    background: rgb(245, 167, 248);
-    text-decoration: underline;
-    width: 650px;
-    font-weight: 500;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.heading{
-    text-decoration: underline;
-}
-.info{
-    font-size: 22px;
-    font-weight:bolder;
-}
+ .contact{
+     position: relative;
+     min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(http://hdqwalls.com/wallpapers/sea-sunset-beach-sunlight-long-exposure-4k-ku.jpg);
+    background-size: cover;
+ }
+ .contact .content{
+     max-width: 800px;
+     text-align: center;
+ }
+ .contact .content h2{
+     font-size: 36px;
+     font-weight: 500;
+     color: #fff;
+ }
+ .contact .content p{
+     font-weight: 300;
+     color: rgb(5, 5, 5);
+     word-spacing: 5px;
+     font-size: 20px;
+     text-align: left;
+
+ }
+ .container{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-top: 30px;
+ }
+ .container .contactInfo{
+     width: 50%;
+    display: flex;
+    flex-direction: column;
+ }
+ .container .contactInfo .box{
+     position: relative;
+     padding: 2px 0;
+     display: flex;
+ }
+ .container .contactInfo .box .icon{
+     min-width: 60px;
+     height: 60px;
+     background-color: whitesmoke;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     font-size: 20px;
+ }
+ .container .contactInfo .box .text{
+     display: flex;
+     margin-left: 20px;
+     font-size: 20px;
+     color: whitesmoke;
+     flex-direction: column;
+     font-weight: 300;
+ }
+ .container .contactInfo .box .text h3{
+     font-weight: 500;
+     color: #02bdd6;
+     
+ }
+ .contactForm {
+     width: 40%;
+     padding: 40px;
+     background: rgb(255, 255, 255);
+ }
+ .contactForm h2{
+     font-size: 30px;
+     color: rgb(51, 51, 51);
+     font-weight: 500;
+ }
+ .h2{
+     color: antiquewhite;
+ }
+ .contactForm .inputBox{
+     position: relative;
+     width: 100%;
+     margin-top: 10px;
+ }
+ .contactForm .inputBox input,
+ .contactForm .inputBox textarea {
+     width: 100%;
+     padding: 5px 0px;
+     font-size: 16px;
+     margin: 10px 0px;
+     border: none;
+     border-bottom: 2px solid rgb(66, 66, 66);
+     outline: none;
+     resize: none;
+ }
+ .contactForm .inputBox span{
+     position: absolute;
+     left: 0;
+     padding: 5px 0px;
+     font-size: 16px;
+     margin: 10px 0px;
+     pointer-events: none;
+     transition: 0.5s;
+     color: rgba(102, 102, 102, 0.767);
+ }
+ .contactForm .inputBox input:focus~ span,
+ .contactForm .inputBox input:valid~ span,
+ .contactForm .inputBox textarea:focus~ span,
+ .contactForm .inputBox textarea:valid~ span
+ {
+    color: #e91e62;
+    font-size: 12px;
+    transform: translateY(-20px);
+ }
+ .contactForm .inputBox input[type ="submit"]{
+   width: 100px;
+   background: black;
+   color: rgb(255, 255, 255);
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   font-size: 20px;
+   /* text-align: center; */
+ }
+ @media (max-width: 720px){
+     .contact{
+         padding: 50px;
+     }
+     .container{
+         flex-direction: column;
+     }
+     .container .contactInfo{
+         margin-bottom: 40px;
+     }
+     .container .contactInfo,
+     .contactForm 
+     {
+         width: 100%;
+     }
+ }

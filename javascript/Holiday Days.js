@@ -9,12 +9,17 @@ function fun1()
 }
 function fun2()
 {
-    var mywindow3=window.open("Holiday Contact.html","_self");
+    var mywindow3=window.open("Holiday Contact Us.html","_self");
 }
 function fun3()
 {
     var mywindow3=window.open("Holiday About.html","_self");
 }
+function fun3()
+{
+    var mywindow3=window.open("Registration (1).html","_self");
+}
+
 function fun31() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -30,6 +35,7 @@ function fun31() {
       moreText.style.display = "inline";
     }
 }
+
 function fun11()
 {
     var mywindow11=window.open("Holiday Gallery(Mumbai).html","_self");
@@ -90,6 +96,37 @@ function fun102()
 {
     var mywindow11=window.open("https://www.instagram.com/");
 }
+
+
+
+
+
+
+function fun500()
+{
+    var mywindow11=window.open("Home family mumbai.html","_self");
+}
+function fun501()
+{
+    var mywindow11=window.open("Home family mumbai.html","_self");
+}
+function fun502()
+{
+    var mywindow11=window.open("Home family mumbai.html","_self");
+}
+function fun503()
+{
+    var mywindow11=window.open("Home family mumbai.html","_self");
+}
+function fun504()
+{
+    var mywindow11=window.open("Home family mumbai.html","_self");
+}
+function fun505()
+{
+    var mywindow11=window.open("Home family mumbai.html","_self");
+}
+
 
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 8) {
