@@ -15,7 +15,7 @@ function fun3()
 {
     var mywindow3=window.open("Holiday About.html","_self");
 }
-function fun3()
+function fun4()
 {
     var mywindow3=window.open("Registration (1).html","_self");
 }

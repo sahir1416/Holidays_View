@@ -7,3 +7,19 @@ input,
 label {
     margin: .4rem 0;
 }
+h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+   padding: 50px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   background-size: cover;
+}
+
