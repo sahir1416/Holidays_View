@@ -68,25 +68,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Navbar  -->
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" ></script> -->
 
 </head>
 
-<body background=' https://source.unsplash.com/1920x1080/?nature,water '>
+<body background='https://papers.co/wallpaper/papers.co-nd78-mountain-nature-sky-cloud-wood-bw-white-36-3840x2400-4k-wallpaper.jpg'>
+    <!-- https://source.unsplash.com/1920x1080/?nature,water -->
     <!-- 2 background img https://source.unsplash.com/1920x1080/?nature,water -->
     <!-- 1 background img https://wonderfulengineering.com/wp-content/uploads/2016/01/beach-wallpaper-28.jpg  -->
     <header class="sticky-top">
 
         <!-- Navbar -->
 
-        <nav>
-            <!-- <div class="container"> -->
-            <!-- <div class="sticky-top"> -->
+        <!-- <nav>
+            / <div class="container">
+            / <div class="sticky-top">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!-- <div class="container"> -->
+                / <div class="container">
                 <a class="navbar-brand" href="#">
-                    <!-- https://media.giphy.com/media/xThuW0uZfF3rwVan4I/source.gif -->
-                    <img src="https://media2.giphy.com/media/toelXGUsYD6vtCN408/giphy.gif" alt="" width="60px"
-                        height="60px">
+                    / https://media.giphy.com/media/xThuW0uZfF3rwVan4I/source.gif
+                    <img src="https://media2.giphy.com/media/toelXGUsYD6vtCN408/giphy.gif" alt="" width="60px" height="60px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -101,7 +103,7 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#" onclick="fun1()">Gallery</a>
                         </li>
-                        <!-- <li class="nav-item dropdown">
+                        / <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Dropdown
                             </a>
@@ -111,7 +113,7 @@
                               <li><hr class="dropdown-divider"></li>
                               <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
-                          </li> -->
+                         / </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#" onclick="fun2()">Contact</a>
                         </li>
@@ -124,10 +126,71 @@
                         </li>
                     </ul>
                 </div>
-                <!-- </div> -->
+               / </div>
             </nav>
-            <!-- </div> -->
-            <!-- </div> -->
+            / </div>
+            / </div>
+        </nav> -->
+
+        <!-- 2nd One  -->
+        
+        <nav class="menu">
+            <input id="menu__toggle" type="checkbox" class='menu__toggle' />
+            <label for="menu__toggle" class="menu__toggle-label">
+                <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
+                    <path d='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z' />
+                </svg>
+                <svg preserveAspectRatio='xMinYMin' viewBox='0 0 24 24'>
+                    <path
+                        d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z" />
+                </svg>
+            </label>
+
+            
+
+            <ol class='menu__content'>
+                <!-- <li class="menu-item"><a href="#0">Home</a></li> -->
+                <li class="menu-item">
+                    <a  aria-current="page" href="#" onclick="fun()">Home</a>
+                </li>
+                <!-- <li class="menu-item"><a href="#0">Gallery</a></li> -->
+                <li class="menu-item">
+                    <a  aria-current="page" href="#" onclick="fun1()">Gallery</a>
+                </li>
+                <!-- <li class="menu-item">
+                <a href="#0">Widgets</a>
+                <ol class="sub-menu">
+                  <li class="menu-item"><a href="#0">Big Widgets</a></li>
+                  <li class="menu-item"><a href="#0">Bigger Widgets</a></li>
+                  <li class="menu-item"><a href="#0">Huge Widgets</a></li>
+                </ol>
+              </li>
+              <li class="menu-item">
+                <a href="#0">Kabobs</a>
+                <ol class="sub-menu">
+                  <li class="menu-item"><a href="#0">Shishkabobs</a></li>
+                  <li class="menu-item"><a href="#0">BBQ kabobs</a></li>
+                  <li class="menu-item"><a href="#0">Summer kabobs</a></li>
+                </ol>
+              </li> -->
+                <!-- <li class="menu-item"><a href="#0">Contact</a></li> -->
+                <li class="menu-item">
+                    <a  aria-current="page" href="#" onclick="fun2()">Contact</a>
+                </li>
+                <!-- <li class="menu-item"><a href="#0">About Us</a></li> -->
+                <li class="menu-item">
+                    <a  aria-current="page" href="#" onclick="fun3()">About Us</a>
+                </li>
+                <li class="menu-item">
+                    <a aria-current="page" href="Registration (1).html" onclick="fun4()">login</a>
+                </li>
+            </ol>
+             
+            <!-- <a class="navbar-brand" href="#"> -->
+                <div class="img">
+                <img src="https://media2.giphy.com/media/toelXGUsYD6vtCN408/giphy.gif" alt="" width="60px" height="60px">
+            </div>
+            <!-- </a> -->
         </nav>
     </header>
 
@@ -588,7 +651,7 @@
         </div> -->
 
     </main>
-<!-- 
+    <!-- 
     <footer class="footer">
 
         / Add font awesome icons
@@ -628,9 +691,14 @@
                     </div>
                     <div class="col-md-6 item text">
                         <h3>Company Name</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula
+                            rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum
+                            vel in justo.</p>
                     </div>
-                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                                class="icon ion-social-twitter"></i></a><a href="#"><i
+                                class="icon ion-social-snapchat"></i></a><a href="#"><i
+                                class="icon ion-social-instagram"></i></a></div>
                 </div>
                 <p class="copyright">Company Name © 2018</p>
             </div>
