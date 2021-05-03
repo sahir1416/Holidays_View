@@ -23,3 +23,15 @@ h1{
    background-size: cover;
 }
 
+.row{
+    margin: 1%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.img-fluid{
+    height: 550px;
+
+}
+.card-img1{
+    height: 271px;
+}

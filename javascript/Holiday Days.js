@@ -140,3 +140,35 @@ $(window).on("scroll", function() {
        $(".navbar").removeClass("change");
     }
 });
+
+
+
+
+
+
+
+
+function fun1000()
+{
+    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+}
+function fun1001()
+{
+    var mywindow11=window.open("taj(hotel mumbai).html","_self");
+}
+function fun1002()
+{
+    var mywindow11=window.open("grand hyatt(hotel mumbai).html","_self");
+}
+function fun1003()
+{
+    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+}
+function fun1004()
+{
+    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+}
+function fun1005()
+{
+    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+}
