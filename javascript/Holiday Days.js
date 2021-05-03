@@ -17,7 +17,11 @@ function fun3()
 }
 function fun4()
 {
-    var mywindow3=window.open("Registration (1).html","_self");
+    var mywindow4=window.open("login.html");
+}
+function fun401()
+{
+    var mywindow5=window.open("Registration (1).html","_self");
 }
 
 function fun31() {
