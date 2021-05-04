@@ -26,8 +26,12 @@ h1{
     color:black;
 }
 .material-icons{
-    margin: 2%;}
+    margin: 2%;
+}
 
+.price{
+    margin-left: 68%;
+}
 
 .light{
     /* font-family: 'Train One', cursive; */

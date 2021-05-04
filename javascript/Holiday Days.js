@@ -112,7 +112,7 @@ function fun500()
 }
 function fun501()
 {
-    var mywindow11=window.open("Home family mumbai.html","_self");
+    var mywindow11=window.open("Home family goa.html","_self");
 }
 function fun502()
 {
@@ -147,28 +147,59 @@ $(window).on("scroll", function() {
 
 
 
+//hotel Mumbai
+
 
 function fun1000()
 {
-    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+    var mywindow11=window.open("Mumbai itc(hotel mumbai).html","_self");
 }
 function fun1001()
 {
-    var mywindow11=window.open("taj(hotel mumbai).html","_self");
+    var mywindow11=window.open("Mumbai taj(hotel mumbai).html","_self");
 }
 function fun1002()
 {
-    var mywindow11=window.open("grand hyatt(hotel mumbai).html","_self");
+    var mywindow11=window.open("Mumbai grand hyatt(hotel mumbai).html","_self");
 }
 function fun1003()
 {
-    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+    var mywindow11=window.open("Mumbai bandra(hotel mumbai).html","_self");
 }
 function fun1004()
 {
-    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+    var mywindow11=window.open("Mumbai JW(hotel mumbai).html","_self");
 }
 function fun1005()
 {
-    var mywindow11=window.open("itc(hotel mumbai).html","_self");
+    var mywindow11=window.open("Mumbai leela(hotel mumbai).html","_self");
+}
+
+
+//hotel Goa
+
+
+function fun2000()
+{
+    var mywindow11=window.open("Goa itc(hotel goa).html","_self");
+}
+function fun2001()
+{
+    var mywindow11=window.open("Goa taj(hotel goa).html","_self");
+}
+function fun2002()
+{
+    var mywindow11=window.open("Goa grand hyatt(hotel goa).html","_self");
+}
+function fun2003()
+{
+    var mywindow11=window.open("Goa Hiton(hotel goa).html","_self");
+}
+function fun2004()
+{
+    var mywindow11=window.open("Goa W(hotel goa).html","_self");
+}
+function fun2005()
+{
+    var mywindow11=window.open("Goa leela(hotel goa).html","_self");
 }
