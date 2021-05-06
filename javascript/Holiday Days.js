@@ -116,7 +116,7 @@ function fun501()
 }
 function fun502()
 {
-    var mywindow11=window.open("Home family mumbai.html","_self");
+    var mywindow11=window.open("Home family Gujarat.html","_self");
 }
 function fun503()
 {
@@ -202,4 +202,33 @@ function fun2004()
 function fun2005()
 {
     var mywindow11=window.open("Goa leela(hotel goa).html","_self");
+}
+
+
+//hotel Gujarat
+
+
+function fun3000()
+{
+    var mywindow11=window.open("Gujarat itc(hotel guj).html","_self");
+}
+function fun3001()
+{
+    var mywindow11=window.open("Gujarat taj(hotel guj).html","_self");
+}
+function fun3002()
+{
+    var mywindow11=window.open("Gujarat grand hyatt(hotel guj).html","_self");
+}
+function fun3003()
+{
+    var mywindow11=window.open("Gujarat Hiton(hotel guj).html","_self");
+}
+function fun3004()
+{
+    var mywindow11=window.open("Gujarat Hawthorn(hotel guj).html","_self");
+}
+function fun3005()
+{
+    var mywindow11=window.open("Gujarat Marriott(hotel guj).html","_self");
 }

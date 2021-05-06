@@ -20,6 +20,10 @@ h1{
     position: relative;
     margin: auto;
     }
+.myslides{
+    height: 400px;
+    width: 600px;
+}
 .description{
     padding-left: 5%;
     padding-right: 5%;
