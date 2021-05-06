@@ -1,24 +1,57 @@
-function fun4()
-{
-    var uname=document.getElementById("uname").value;
-    var pass=document.getElementById("pass").value;
 
-    if (uname=="developer" && pass=="buddies") 
-    {
+(function ($) {
+    "use strict";
 
-        var mywindow=window.open("Holiday Days.html","_self");
-        
+    
+    /*==================================================================
+    [ Validate ]*/
+    var input = $('.validate-input .input100');
+
+    $('.validate-form').on('submit',function(){
+        var check = true;
+
+        for(var i=0; i<input.length; i++) {
+            if(validate(input[i]) == false){
+                showValidate(input[i]);
+                check=false;
+            }
+        }
+
+        return check;
+    });
+
+
+    $('.validate-form .input100').each(function(){
+        $(this).focus(function(){
+           hideValidate(this);
+        });
+    });
+
+    function validate (input) {
+        if($(input).attr('type') == 'email' || $(input).attr('name') == 'email') {
+            if($(input).val().trim().match(/^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{1,5}|[0-9]{1,3})(\]?)$/) == null) {
+                return false;
+            }
+        }
+        else {
+            if($(input).val().trim() == ''){
+                return false;
+            }
+        }
     }
-    else 
-    {
-        alert("invalid username & password.");
+
+    function showValidate(input) {
+        var thisAlert = $(input).parent();
+
+        $(thisAlert).addClass('alert-validate');
     }
-}
-function fun401()
-{
-    var mywindow2=window.open("Registration (1).html");
-}
 
+    function hideValidate(input) {
+        var thisAlert = $(input).parent();
 
-fun4()
-fun401()
+        $(thisAlert).removeClass('alert-validate');
+    }
+    
+    
+
+})(jQuery);
