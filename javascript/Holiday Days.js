@@ -3,10 +3,10 @@ function fun()
     var mywindow=window.open("Holiday Days.html","_self");
 }
 
-function fun1()
+/*function fun1()
 {
     var mywindow2=window.open("Holiday Gallery.html","_self");
-}
+}*/
 function fun2()
 {
     var mywindow3=window.open("Holiday Contact Us.html","_self");
